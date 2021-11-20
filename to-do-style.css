@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* margin-top:3px !important; */
+}
+div{
+    margin-top: 1px;
+    border: 1px solid black;
+}
+#txt{
+    /* border:none; */
+    border: 1px solid black;
+}
+#txt:hover{
+    border: 2px solid rgb(7, 7, 7);
+}
+#box:hover{
+    background: rgb(129, 41, 41);
+    border: 3px solid rgb(10, 1, 1);
+}
+.list2{
+    border:none;
+    padding-bottom: 3px;
+    padding-left:5px;
+    border-bottom: 1px solid black;
+}
+#box{
+    background: rgb(231, 128, 128);
+    border:none;
+    padding-bottom: 2px;;
+    border-bottom: 1px solid black;
+    min-width: 100px;
+    padding-left: 30vw;
+}
+#list{ 
+    /* border:none; */
+    margin-top:5px;
+    /* padding-left: 30vw;  */
+    /* min-width: 100px; */
+}
+li{
+    list-style: none;
+    border: 1px solid black;
+    margin-top:0px;
+    margin-bottom: 2px;
+    /* height: 300px; */
+    /* width: 40vw; */
+    /* min-width: 70px; */
+    /* border-right: 1px solid black; */
+}
+.list2:hover{
+    border: 2px solid black;
+}
+.list2:nth-child(even){
+    /* background: #be9797; */
+    color: rgb(206, 204, 204);
+    background: rgb(76, 75, 80);
+}
+.list2:nth-child(odd){
+    /* background: #be9797; */
+    /* color: white; */
+    background: rgb(238, 233, 233);
+}
+/* #div3{
+    float: right;
+    color: black;
+    border-left: 1px solid black;
+} */
+#btn{
+    margin-left:20px;
+    padding:1px;
+    text-align:center;
+    background:rgb(136, 136, 209);
+    color:white;
+    cursor: pointer;
+    border-radius: 0px !important;
+    border-width: 1px !important;
+}
+#btn:hover{
+    color:black;
+    border: 3px solid black;
+    background: rgb(253, 78, 78);
+}
+.btn2{
+    border:none;
+    background:rgb(1, 12, 1);
+    color:white;
+    float: right;
+    margin:0px 0px;
+    cursor: pointer;
+    padding:2px 9px;
+    /* margin-right: 20px!important; */
+}
+.btn2:hover{
+    color:black;
+    background: rgb(230, 64, 64);
+    /* animation: anim 2s; */
+}
+/* @keyframes anim{
+    0%{
+        color:black;
+        /* opacity: 0.3; */
+    /* } */
+    /* 50%{ */
+       /* opacity: 0.7; */
+       /* transform: scale(1.2); */
+    /* } */
+    /* 100%{ */
+        /* opacity: 0.9; */
+        /* color:black; */
+    /* } */
+/* } */
